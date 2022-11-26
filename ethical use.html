@@ -1,0 +1,162 @@
+<html>
+
+<head>
+    <title>
+        ETHICAL USE
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Arvo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="what is.css">
+    <script src="https://kit.fontawesome.com/4ea6e3ab0b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo"><img src="./logo_wbg.png" height="60px" width="150px"></div>
+        <ul>
+            <li><a href="./index.html"><i class="fa-solid fa-house"></i> HOME</a></li>
+            <li><a href="#" id="topics">TOPICS <i class="fa-solid fa-caret-down"></i></a>
+                <ul>
+                    <li><a href="what is ai.html" target="_parent">About AI</a></li>
+                    <li><a href="application.html">Applications</a></li>
+                    <li><a href="topics.html">Types</a></li>
+                    <li><a href="#">Ethical Use</a></li>
+                    <li><a href="history.html">History</a></li>
+                </ul>
+            </li>
+            <li><a href="#">WEB<i class="fa-solid fa-caret-down"></i></a>
+                <ul>
+                    <li><a href="https://en.wikipedia.org/wiki/HTML">HTML</a>
+
+                    </li>
+                    <li><a href="https://en.wikipedia.org/wiki/CSS">CSS</a>
+
+                    </li>
+                </ul>
+            </li>
+
+            <li><a href="CONTACT US.HTML" target="_parent"><i class="fa-solid fa-address-card"></i> CONTACT US</a></li>
+            <li><a href="./aboutus.html">ABOUT US</a></li>
+        </ul>
+        <div class="search-box">
+            <input type="text" name="" placeholder="Type To Search" class="search-txt">
+            <a class="search-btn" href="https://www.wikipedia.org/">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+
+        </div>
+        <div class="right-col">
+            <i class="fa-solid fa-play xxl" id="icon"></i>
+
+        </div>
+
+
+
+    </nav>
+    <div class="content">
+        <div class="ai">
+            <h1>Ethical use of artificial intelligence</h1><br>
+            <p>
+                While AI tools present a range of new functionality for businesses, the use of artificial
+                <br>intelligence also raises ethical questions because, for better or worse, an AI system will
+                <br>reinforce what it has already learned.<br><br><br>
+
+                This can be problematic because machine learning algorithms, which underpin many of the <br>most
+                advanced AI tools, are only as smart as the data they are given in training. Because a <br>human being
+                selects what data is used to train an AI program, the potential for machine<br> learning bias is
+                inherent and must be monitored closely.<br><br><br>
+
+                Anyone looking to use machine learning as part of real-world, in-production systems needs <br>to factor
+                ethics into their AI training processes and strive to avoid bias. This is especially true<br> when using
+                AI algorithms that are inherently unexplainable in deep learning and generative <br>adversarial network
+                (GAN) applications.<br><br><br>
+
+                Explainability is a potential stumbling block to using AI in industries that operate under strict
+                <br>regulatory compliance requirements. For example, financial institutions in the United States<br>
+                operate under regulations that require them to explain their credit-issuing decisions. When a
+                <br>decision to refuse credit is made by AI programming, however, it can be difficult to explain <br>how
+                the decision was arrived at because the AI tools used to make such decisions operate <br>by teasing out
+                subtle correlations between thousands of variables. When the decision-making<br> process cannot be
+                explained, the program may be referred to as black box AI.<br><br><br>
+                Despite potential risks, there are currently few regulations governing the use of AI tools, and
+                <br>where laws do exist, they typically pertain to AI indirectly. For example, as previously<br>
+                mentioned, United States Fair Lending regulations require financial institutions to explain <br>credit
+                decisions to potential customers. This limits the extent to which lenders can use deep <br>learning
+                algorithms, which by their nature are opaque and lack explainability.<br><br><br>
+
+                The European Union's General Data Protection Regulation (GDPR) puts strict limits on how<br> enterprises
+                can use consumer data, which impedes the training and functionality of many<br> consumer-facing AI
+                applications.<br><br><br>
+
+                <img src="./use.webp" height="800px" width="800px"><br><br><br>
+
+                In October 2016, the National Science and Technology Council issued a report examining<br> the potential
+                role governmental regulation might play in AI development, but it did not<br> recommend specific
+                legislation be considered.<br><br><br>
+
+                Crafting laws to regulate AI will not be easy, in part because AI comprises a variety of
+                <br>technologies that companies use for different ends, and partly because regulations can <br>come at
+                the cost of AI progress and development. The rapid evolution of AI technologies is <br>another obstacle
+                to forming meaningful regulation of AI. Technology breakthroughs and <br>novel applications can make
+                existing laws instantly obsolete. For example, existing laws <br>regulating the privacy of conversations
+                and recorded conversations do not cover the <br>challenge posed by voice assistants like Amazon's Alexa
+                and Apple's Siri that gather but do<br> not distribute conversation -- except to the companies'
+                technology teams which use it to <br>improve machine learning algorithms. And, of course, the laws that
+                governments do manage <br>to craft to regulate AI don't stop criminals from using the technology with
+                malicious intent.<br>
+            <h1>Cognitive computing and AI</h1><br><br>
+            <p>
+                The terms AI and cognitive computing are sometimes used interchangeably, but, generally<br> speaking,
+                the label AI is used in reference to machines that replace human intelligence by<br> simulating how we
+                sense, learn, process and react to information in the environment.<br><br><br>
+
+                The label cognitive computing is used in reference to products and <br>services that mimic and augment
+                human thought processes.<br><br><br>
+            </p>
+
+
+            </p>
+
+        </div>
+    </div>
+    <audio id="mysong">
+        <source src="./background music.mp3" type="audio/mp3">
+
+
+    </audio>
+    <script>
+
+        var mysong = document.getElementById("mysong")
+        var icon = document.getElementById("icon")
+        var isPlaying = false;
+
+        icon.onclick = function () {
+            if (!isPlaying) {
+                mysong.play();
+                isPlaying = true;
+
+
+            }
+            else {
+                mysong.pause();
+                isPlaying = false;
+
+            }
+        }
+
+    </script>
+    <div class="page">
+        <ul class="page1">
+            <li class="home"><a href="first project AI.html">HOME</a></li>
+            <li><a href="what is ai.html">1</a></li>
+            <li><a href="application.html">2</a></li>
+            <li><a href="topics.html">3</a></li>
+            <li><a href="">4</a></li>
+            <li><a href="history.html">5</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
